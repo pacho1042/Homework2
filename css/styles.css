@@ -62,3 +62,40 @@ body {
     --radius-lg: 12px;
     --radius-xl: 20px;
 }
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* Centra horizontalmente */
+  align-items: center;
+  /* Centra verticalmente */
+  
+  background: var(--color-primary);
+  color: var(--color-fuente-claro);
+  font-family: var(--font-family);
+  text-align: center;
+  margin: 0 auto;
+  padding: 1rem;
+  
+}
+.header-contenido {
+  
+  border-radius: var(--radius-lg);
+}
+
+.titulo-principal {
+  font-family: var(--font-family);
+  font-size: var(--font-size-titulo);
+  margin-bottom: 1rem;
+}
+.descripcion {
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  color: hsl(0, 0%, 90%);
+}
+.contenedor{
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+  background: var(--color-degradado);
+}
