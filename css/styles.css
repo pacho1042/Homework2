@@ -169,3 +169,75 @@ body {
     padding: 0.5rem;
   }
 }
+
+/*====================================================
+    HSL (Hue, Saturation, Lightness)
+
+    H (Hue - Matiz):
+    Representa el color en un círculo cromático.
+    Se expresa en grados de 0° a 360°.
+    - 0° = Rojo
+    - 120° = Verde
+    - 240° = Azul
+
+    S (Saturation - Saturación):
+    Indica la intensidad o pureza del color.
+    Se expresa en porcentaje (0% - 100%).
+    - 0% = Gris (sin color)
+    - 100% = Color completamente intenso
+
+    L (Lightness - Luminosidad):
+    Indica qué tan claro u oscuro es el color.
+    Se expresa en porcentaje (0% - 100%).
+    - 0% = Negro
+    - 50% = Color normal
+    - 100% = Blanco
+
+======================================================*/
+
+/*====================================================
+    ¿Por qué HSL puede ser más útil que HEX o RGB?
+
+    - Es más fácil modificar un color.
+    - Permite aclarar u oscurecer un color cambiando
+      únicamente el valor de Lightness.
+    - Permite aumentar o disminuir la intensidad del
+      color modificando Saturation.
+    - Facilita crear paletas de colores manteniendo
+      el mismo tono (Hue).
+
+    Ejemplo:
+
+    Azul principal:
+    hsl(210, 80%, 50%)
+
+    Azul más claro:
+    hsl(210, 80%, 70%)
+
+    Azul más oscuro:
+    hsl(210, 80%, 30%)
+
+======================================================*/
+
+/*====================================================
+    ¿Cuándo usar HSL?
+
+    Un caso práctico es cuando se diseña una página web
+    con un color principal y se necesitan diferentes
+    tonalidades para botones, tarjetas y efectos hover.
+
+    Ejemplo:
+
+    Color principal:
+    hsl(210, 90%, 55%)
+
+    Hover del botón:
+    hsl(210, 90%, 45%)
+
+    Fondo suave:
+    hsl(210, 90%, 95%)
+
+    De esta manera toda la interfaz conserva la misma
+    identidad visual cambiando únicamente la luminosidad.
+
+======================================================*/
