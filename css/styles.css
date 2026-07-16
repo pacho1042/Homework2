@@ -99,3 +99,51 @@ body {
   padding: 1rem;
   background: var(--color-degradado);
 }
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* Equivale a: 1fr 1fr 1fr */
+  grid-template-rows: repeat(3, 500px);
+  justify-items: start;  
+  gap: 1em;
+}
+
+.foto-tarjeta {
+  padding: 1rm;
+  text-align: center;
+
+}
+
+.foto-tarjeta img {
+  transition: transform .3s ease;
+  border-radius: var(--radius-lg);
+}
+
+.foto-tarjeta img:hover {
+  color: var(--color-primary-dark);
+  transform: scale(1.1);
+  box-shadow: var(--shadow-color);
+}
+
+.foto-info {
+  font-family: var(--font-family);
+  font-size: var(--font-size-estadar);
+  color: var(--color-fuente-claro);
+  border-radius: var(--radius-xl);
+  background-color: var(--bg-dark);
+
+}
+
+.foto-info:hover {
+  color: var(--color-primary)
+}
+
+.footer {
+  font-family: var(--font-family);
+  width: 100%;
+  background: var(--color-primary);
+  color: var(--color-fuente-claro);
+  text-align: center;
+  margin: 0 auto;
+  padding: 1rem;
+}
