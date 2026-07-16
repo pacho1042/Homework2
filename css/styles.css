@@ -31,3 +31,34 @@ body {
     /* Color de fondo */
     background-color: hsl(0, 0%, 98%);
 }
+
+/* TODO: Define variables usando HSL */
+:root {
+    /* ===== COLORES PRINCIPALES ===== */
+    --color-primary: hwb(220 25% 9% / 0.972);
+    --color-primary-dark: hsl(186, 90%, 40%);
+    --color-primary-light: hsl(220, 90%, 70%);
+    --color-fuente-claro: hsl(0, 0%, 100%);
+
+    /*color degradado*/
+    --color-degradado: linear-gradient(135deg, hsl(216, 76%, 67%), hsl(220, 85%, 75%));
+
+
+    /* ===== FONDOS ===== */
+    --bg-dark: hsl(219, 58%, 76%);
+
+    /* ===== SOMBRAS ===== */
+    --shadow-color: hsla(9, 95%, 67%, 0.15);
+
+    /* ===== TIPOGRAFÍA ===== */
+    --font-family: Arial, Helvetica, sans-serif;
+    --font-size: 2rem;
+    --font-size-titulo: 4rem;
+    --font-size-estadar: 1rem;
+    --font-size-reducido: 0.5rem;
+
+
+    /* ===== BORDES REDONDEADOS ===== */
+    --radius-lg: 12px;
+    --radius-xl: 20px;
+}
