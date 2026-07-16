@@ -147,3 +147,25 @@ body {
   margin: 0 auto;
   padding: 1rem;
 }
+@media (max-width: 768px) {
+  .galeria {
+    grid-template-columns: repeat(2, 1fr);
+  }
+ 
+}
+/* TODO: Móviles - 1 columna */
+@media (max-width: 480px) {
+  .galeria {
+     grid-template-columns: repeat(1, 1fr);
+  }
+  
+  .titulo-principal {
+    /* font-size aún más pequeño */
+    font-size: var(--font-size-reducido);
+  }
+  
+  .contenedor {
+    /* padding reducido */
+    padding: 0.5rem;
+  }
+}
